@@ -1,0 +1,285 @@
+.Header {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 0 40px; 
+}
+
+
+.name-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.intro-name{
+    width: 265px;
+    height:29px;
+    top:61px;
+    left:167px;
+    font-family: "Segoe UI";
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.vector-image{
+    width: 35px;
+    height:40px;
+    top:59px;
+    left:112px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+}
+
+.nav-items{
+    width:57px;
+    height:29px;
+    top:65px;
+    font-family:"Segoe UI";
+    font-weight:600;
+    size:20px;
+    line-height: 100%;
+    letter-spacing: 0%; 
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-family: 'Segoe UI';
+    padding: 0 10px;
+}
+
+
+.home{
+    left:1039px;
+}
+
+.about{
+    left:1150px;
+}
+
+.resume{
+    left:1150px;
+}
+
+.skills{
+    left:1390px;
+}
+
+.projects{
+    left:1492px;
+}
+
+.contact{
+    left:1624px;
+}
+
+.moon-image{
+    width: 40px;
+    height:40px;
+    top:59px;
+    left:1181px; 
+    rotate: -180px;
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-end;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction:row;
+}
+
+
+.hello{
+    width: 197px;
+    height:72px;
+    top:300px;
+    left:269px;
+    font-family: "Segoe UI";
+    font-weight:  700px;
+    font-size:36px;
+    line-height:100%;
+    letter-spacing:0%;
+    background-image: linear-gradient(#32F6F6,#A6A79F);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius:50px;
+    color:white;
+    
+}
+
+.intro{
+    width: 288px;
+    height:81px;
+    top:382px;
+    left:269px;
+    font-family: "Segoe UI";
+    font-weight:  600px;
+    font-size:64px;
+    line-height:100%;
+    letter-spacing:0%;
+    
+}
+
+.name{
+    text-decoration:underline;
+}
+
+.role{
+   width: 624px;
+    height:77px;
+    top:470px;
+    left:269px;
+    font-family: "Segoe UI";
+    font-weight:  300px;
+    font-size:30px;
+    line-height:100%;
+    letter-spacing:0%; 
+}
+
+.cv-download-btn{
+    width: 136px;
+    height:29px;
+    top:666px;
+    left:289px;
+    font-family: "Segoe UI";
+    font-weight:  900px;
+    font-size:20px;
+    line-height:100%;
+    letter-spacing:0%; 
+}
+
+.get-in-touch-btn{
+    width: 136px;
+    height:29px;
+    top:666px;
+    left:489px;
+    font-family: "Segoe UI";
+    font-weight:  900px;
+    font-size:20px;
+    line-height:100%;
+    letter-spacing:0%; 
+}
+
+.social-media {
+  display: flex;
+  flex-direction:column; 
+  gap: 10px;
+}
+
+
+.social-media-links{
+    width: 33.78px;
+    height:33.8px;
+    top:649px;
+    left:113px; 
+    border-radius: 50%;           
+    border: 2px solid black;      
+    padding: 5px;                 
+    background-color: white;      
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);  
+    transition: transform 0.2s ease;
+}
+
+.social-media-links:hover {
+  transform: scale(1.1); 
+}
+
+.cv-download-btn,
+.get-in-touch-btn {
+  background-color: #FFD700; /* Yellow */
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.navitha-profile {
+  position: relative;
+  width: 280px;
+  height: 280px;
+  margin: 50px auto 0;
+}
+
+.yellow-shape {
+  position: absolute;
+  width: 280px;
+  height: 280px;
+  background-color: #FFD700; /* Bright yellow */
+  border-radius: 50%;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+
+.profile-image {
+  position: absolute;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  object-fit: cover;
+  top: 20px;
+  left: 20px;
+  z-index: 2;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.buttons button {
+  background-color: #FFD700;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 6px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.about-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 60px;
+}
+
+
+.hand-image {
+  width: 250px;
+  height: auto;
+  transform: rotate(90deg);
+  margin-right: 40px;
+}
+
+.about-text {
+  max-width: 700px;
+  font-family: 'Segoe UI';
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.yellow-blob {
+  width: 300px;
+  height: 300px;
+  background-color: yellow;
+  border-radius: 50% 50% 0 50%;
+  position: absolute;
+  left: 100px;
+  top: 1200px;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+
+
